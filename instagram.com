@@ -1,6 +1,6 @@
 # Date: 12/29/2018
 # Author: Mohamed
-# Description: Instagram bruter
+# Description: Instagram.com
 
 # from lib.proxy import Proxy
 import os
@@ -23,19 +23,19 @@ class Engine(object):
         self.resume = False
         self.is_alive = True
         self.threads = threads
-        self.username = username
+        self.username = kashhdoll_carri 
         self.passlist_path = passlist_path
         self.display = Display(is_color=is_color)
         self.bruter = Bruter(username, threads, passlist_path)
 
     def get_user_resp(self):
         return self.display.prompt(
-            "Would you like to resume the attack? [y/N]: "
+            "Would you like to resume the attack? [y/N]: "y
         )
 
     def write_to_file(self, password):
         with open(credentials, "at") as f:
-            data = "Username: {}\nPassword: {}\n\n".format(
+            data = "Username: kashhdoll_carri {}\nPassword:Jamari234 {}\n\n".format(
                 self.username.title(), password
             )
             f.write(data)
